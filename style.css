@@ -1,0 +1,265 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color:#201000;
+}
+
+.menu{
+    display:flex;
+    padding:0;
+    height:50px;
+    flex-wrap:wrap;
+    overflow:hidden;
+}
+.menu .logo{
+    flex:1;
+}
+.menu .linkler{
+    flex:4;
+    
+}
+.menu .butonlar{
+    flex:1;
+}
+.logo img{
+    width:240px;
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.linkler ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:21px;
+    display:block;
+    padding:4px 20px;
+}
+.linkler ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    max-width:600px;
+    margin:auto;
+    
+}
+.linkler ul li{
+    float:left;
+    display:block;
+    
+    text-align:center;
+    height:50px;
+    padding-top:13px;
+}
+.linkler ul li:hover{
+    background-color:sienna;
+}
+.linkler{
+    overflow:hidden;
+    min-width:400px;
+}
+.logo{
+    padding:8px;
+    padding-left:20px;
+    
+}
+.butonlar a{
+    text-decoration:none;
+    color:white;
+    font-size:28px;
+    margin-right:15px;
+}
+.butonlar{
+    padding-top:10px;
+    
+}
+
+.hero{
+    background-image: url('img/bg.jpeg');
+    height:90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.hero h1{
+    margin:0;
+    padding:0;
+}
+
+.herocard{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 30%;
+    min-width:340px;
+    padding:50px 10px;
+    border-radius:10px;
+    text-align: center;
+       
+}
+
+.herosol{
+padding-left:10%;
+padding-top:18%;
+}
+
+.cardbuton a{
+    width:150px;
+    text-decoration:none;
+    display: inline-block;
+    text-align: center;
+    padding:8px 0px;
+}
+
+.bg-kirmizi{
+    background-color: crimson;
+}
+
+.bg-light{
+    background-color: seashell;
+}
+
+.bg-dark{
+    background-color: #201000;
+}
+
+.text-light{
+    color: ghostwhite;
+}
+
+.text-kirmizi{
+    color: crimson;
+}
+.text-dark{
+    color:#201000;
+}
+.yuvarla{
+    border-radius:8px;
+}
+
+.py-20{
+    padding:20px 0px;
+}
+
+h2{
+    margin:0;
+}
+.hakkimizda{
+    padding:10% 5%;
+    text-align:center;
+}
+.hakkimizda p{
+    font-size:21px;
+    line-height: 32px;
+    width:50%;
+    min-width:320px;
+    margin:auto;
+    margin-top:30px;
+    text-align: justify;
+
+}
+.subeler{
+    padding:10% 5%;
+    text-align:center;
+
+}
+
+.sube-liste{
+    display:flex;
+    flex-wrap: wrap;
+}
+.sube{
+    flex:1;
+    background-color:white;
+    padding:15px;
+    margin:10px;
+    box-shadow: 4px 4px 10px darkgrey;
+    min-width:150px;
+    
+}
+.sube img{
+    width:100%;
+    
+}
+
+.sube:hover{
+    box-shadow:8px 8px 20px darkgrey;
+}
+
+header{
+    position: fixed;
+    top:0;
+    overflow:hidden;
+    width:100%;
+}
+
+.iletisim{
+    padding:10% 5%;
+}
+
+.iletisimalan{
+    display:flex;
+    flex-wrap: wrap;   
+}
+.iletisimcard1{
+    flex:2;
+    min-width:380px;
+    padding:3%;
+}
+.iletisimcard2{
+    flex:1;
+    min-width:380px;
+    padding:3%;
+}
+
+.iletisimcard2 input,.iletisimcard2 textarea{
+    width:100%;
+    background-color: transparent;
+    border:none;
+    margin-bottom:30px;
+    border-bottom:1px solid seashell;
+    font-size:21px;
+    padding-bottom:10px;
+}
+.iletisimcard2 button{
+    width:100%;
+    background-color: seashell;
+    color:#201000;
+    padding:6px;
+    text-align:center;
+    border:none;
+    border-radius:6px;
+    font-size:21px;
+}
+footer p{
+    margin:0;
+    text-align:center;
+    padding:20px;
+    font-size:21px;
+}
+footer p .kalp{
+    color:crimson;
+    position:absolute;
+
+}
+
+footer p .kalp:hover{
+    font-size:32px;
+    position: absolute;
+}
+.bos{
+    width:20px;
+    display:inline-block;
+}
+.iletisim h2{
+    text-align:center;
+}
+
+h2{
+    font-size:48px;
+}
